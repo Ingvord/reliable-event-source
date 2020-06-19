@@ -1,0 +1,35 @@
+{
+  "name": "reliable-event-source",
+  "version": "1.0.0",
+  "description": "Reliable EventSource",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ingvord/reliable-event-source.git"
+  },
+  "keywords": [
+    "js",
+    "eventsource"
+  ],
+  "author": "Ingvord",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ingvord/reliable-event-source/issues"
+  },
+  "homepage": "https://github.com/Ingvord/reliable-event-source#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^8.0.1",
+    "rollup": "^2.17.1"
+  },
+  "runtimeDependencies": [
+    "rxjs"
+  ],
+  "dependencies": {
+    "rxjs": "^6.5.5"
+  }
+}
