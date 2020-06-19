@@ -1,5 +1,5 @@
 {
-  "name": "reliable-event-source",
+  "name": "@ingvord/reliable-event-source",
   "version": "1.0.0",
   "description": "Reliable EventSource",
   "main": "dist/index.js",
