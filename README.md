@@ -1,3 +1,5 @@
+[![Docs](https://img.shields.io/badge/Docs-Generated-green.svg)](https://ingvord.github.io/reliable-event-source/)
+
 # reliable-event-source
 Reliable EventSource
 
