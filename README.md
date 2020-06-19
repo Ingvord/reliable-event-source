@@ -6,7 +6,7 @@ Reliable EventSource
 ## usage
 
 ```js
-import {ReliableEventSource} from '';
+import {ReliableEventSource} from '@ingvord/reliable-event-source';
 
 const rev = new ReliableEventSource('http://localhost:8080/server/event-stream', {withCredentials: true}/*enable cors*/, 3000/*reconnection delay*/)
 rev.observe()//returns rxjs/Observable
